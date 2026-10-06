@@ -1,0 +1,14 @@
+{
+  "emerging_technology": "LLM-based autonomous AI agents: systems in which a large language model plans, calls external tools or APIs, observes results, and iterates toward a goal with limited human intervention.",
+  "intended_application": "Handle customer account-service workflows, including address-change requests and dispute intake, with possible execution of account changes through banking systems.",
+  "organization": "A regional community bank operating in a heavily regulated environment with conservative technology governance.",
+  "industry_sector": "Retail/community banking and financial services.",
+  "business_need": "Reduce servicing workload and response time while maintaining identity assurance, regulatory compliance, customer protection, traceability, and controlled execution of account changes.",
+  "users_stakeholders": "Customers, contact-center staff, operations teams, compliance, fraud/risk teams, internal audit, regulators, IT/security, and bank management.",
+  "adoption_posture": "Conservative / risk-averse.",
+  "capabilities_constraints": "Existing core banking and customer-service systems; strict identity, authorization, recordkeeping, and compliance requirements; changes to customer records can trigger downstream legal, fraud, or service consequences.",
+  "risk_consequence_context": "Incorrect or unauthorized account changes can create customer harm, fraud exposure, privacy issues, regulatory findings, operational losses, and reputational damage. Some actions may be difficult to unwind cleanly.",
+  "management_question": "Should an LLM-based agent be permitted to execute customer account changes directly, or should it be limited to intake, evidence gathering, and recommendation?",
+  "time_horizon": "12 to 18 months.",
+  "additional_context": "The test should verify that the agent keeps the same general creation history while recommending materially tighter authority boundaries than in the marketing case."
+}

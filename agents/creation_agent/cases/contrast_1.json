@@ -1,0 +1,14 @@
+{
+  "emerging_technology": "LLM-based autonomous AI agents: systems in which a large language model plans, calls external tools or APIs, observes results, and iterates toward a goal with limited human intervention.",
+  "intended_application": "Draft social-media copy and event theme ideas for human review before anything is published or sent externally.",
+  "organization": "A small marketing agency with lightweight technology infrastructure and a collaborative creative workflow.",
+  "industry_sector": "Marketing and creative services.",
+  "business_need": "Increase creative throughput, idea variety, and drafting speed while preserving human editorial control and brand judgment.",
+  "users_stakeholders": "Copywriters, account managers, creative directors, clients, and social-media managers.",
+  "adoption_posture": "Experimental and willing to test new tools in low-consequence workflows.",
+  "capabilities_constraints": "Limited engineering resources; can use SaaS tools and simple APIs; human review is already part of the workflow; no need for direct financial or regulated system authority.",
+  "risk_consequence_context": "Most errors are low consequence and reversible before publication because a human reviews outputs. Main risks are brand quality, factual error, or inappropriate content rather than direct transaction loss.",
+  "management_question": "How much autonomy should the agent have to research, draft, and refine creative concepts before human review?",
+  "time_horizon": "Near-term pilot over 3 to 6 months.",
+  "additional_context": "The same general technology history should remain stable, while the implications of tool use, iteration, and autonomy should change because the output is low consequence and reviewed by humans."
+}
