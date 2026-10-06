@@ -1,0 +1,39 @@
+name: Restore frozen scaffold baseline
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/restore-scaffold.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  restore:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Restore exact frozen scaffold from working-copy archive
+        shell: bash
+        run: |
+          set -euo pipefail
+          git fetch origin assignment-2-creation-agent
+          git show origin/assignment-2-creation-agent:MASY1800_ET_Creation_Agent_Working_Copy.zip > /tmp/working.zip
+          rm -rf /tmp/restore
+          mkdir -p /tmp/restore
+          unzip -q /tmp/working.zip -d /tmp/restore
+          SRC="/tmp/restore/MASY1800_ET_Agent_Scaffold_v1_0"
+          rm -rf "$SRC/agents/creation_agent"
+          rm -f "$SRC/work/creation_agent_primary_prompt.txt"
+          rm -f "$SRC/work/creation_agent_contrast_1_prompt.txt"
+          rm -f "$SRC/work/creation_agent_contrast_2_prompt.txt"
+          find . -mindepth 1 -maxdepth 1 ! -name .git -exec rm -rf {} +
+          cp -a "$SRC"/. .
+          git add -A
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Restore frozen ET agent scaffold baseline"
+          git push origin HEAD:main
