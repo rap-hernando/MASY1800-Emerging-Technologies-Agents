@@ -1,0 +1,14 @@
+{
+  "emerging_technology": "LLM-based autonomous AI agents: systems in which a large language model plans, calls external tools or APIs, observes results, and iterates toward a goal with limited human intervention.",
+  "intended_application": "Handle customer-service workflows such as address-change intake and dispute intake, with tool access to prepare or execute account-service actions subject to bank controls.",
+  "organization": "Regional community bank.",
+  "industry_sector": "Retail/community banking.",
+  "business_need": "Reduce service handling time and manual back-office work while preserving customer authentication, policy controls, auditability, and regulatory compliance.",
+  "users_stakeholders": "Customers, contact-center staff, operations, compliance, risk, information security, auditors, and IT.",
+  "adoption_posture": "Conservative / risk-averse.",
+  "capabilities_constraints": "Heavily regulated environment, strict identity/authorization requirements, legacy core-banking integration constraints, and low tolerance for unauthorized account changes.",
+  "risk_consequence_context": "Errors or unauthorized actions can create customer harm, regulatory exposure, fraud risk, audit findings, and reputational damage.",
+  "management_question": "How innovative is agent-enabled account-service execution for this bank, and does it materially disrupt the bank's business model or mainly redesign a high-risk operating process?",
+  "time_horizon": "12 to 24 months.",
+  "additional_context": "The workflow is consequential, but the case provides no evidence that address changes or dispute intake are themselves core revenue sources. The agent must not equate high governance risk with high business-model disruption."
+}

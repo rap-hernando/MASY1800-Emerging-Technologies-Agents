@@ -1,0 +1,14 @@
+{
+  "emerging_technology": "LLM-based autonomous AI agents: systems in which a large language model plans, calls external tools or APIs, observes results, and iterates toward a goal with limited human intervention.",
+  "intended_application": "Reconcile carrier freight invoices against shipment records, flag discrepancies, and approve matched invoices for payment.",
+  "organization": "Mid-sized third-party logistics company with about 800 employees.",
+  "industry_sector": "Third-party logistics / transportation services.",
+  "business_need": "Reduce manual freight-audit effort and cycle time while maintaining accurate, auditable invoice approval.",
+  "users_stakeholders": "Accounts payable, freight audit staff, operations, finance leadership, internal/external auditors, carriers, and IT.",
+  "adoption_posture": "Pragmatic adopter / moderate fast-follower.",
+  "capabilities_constraints": "Moderate technical capability; ERP and transportation management system already in place; payment workflow must remain auditable; limited tolerance for erroneous or duplicate payments.",
+  "risk_consequence_context": "Incorrect approval could cause financial loss, duplicate or improper payment, audit exceptions, carrier disputes, and accounting corrections; actions are consequential but usually financially reversible with effort.",
+  "management_question": "From an innovation and business-model disruption perspective, how significant is autonomous freight-invoice approval, what value could it create or displace, and how exposed is the company's current operating/business model if this application succeeds?",
+  "time_horizon": "12 to 18 months.",
+  "additional_context": "The decision under consideration is whether the agent should approve matched invoices autonomously rather than only flag discrepancies. The case does not provide detailed revenue mix, freight-audit staffing cost, margins, or competitor adoption data; treat business-model conclusions as bounded scenario inference."
+}

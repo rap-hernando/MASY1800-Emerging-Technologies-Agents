@@ -1,0 +1,14 @@
+{
+  "emerging_technology": "LLM-based autonomous AI agents: systems in which a large language model plans, calls external tools or APIs, observes results, and iterates toward a goal with limited human intervention.",
+  "intended_application": "Generate social-media copy drafts and event-theme ideas, optionally using research tools, for human review before publication or client delivery.",
+  "organization": "Small marketing agency.",
+  "industry_sector": "Marketing and creative services.",
+  "business_need": "Increase creative throughput and shorten ideation/drafting cycles without removing human editorial control.",
+  "users_stakeholders": "Copywriters, strategists, account managers, creative director, clients, and end audiences.",
+  "adoption_posture": "Experimental / leading-edge within a low-consequence sandbox.",
+  "capabilities_constraints": "Small team, limited engineering capacity, common SaaS creative tools, human review retained before external use.",
+  "risk_consequence_context": "Most draft errors are reversible before publication; reputational or client-quality risk exists, but direct financial or regulated transaction authority is absent.",
+  "management_question": "How innovative is agent-assisted social-copy and event-theme ideation for this agency, and could it materially reshape the agency's value proposition, labor model, pricing, or source of creative advantage?",
+  "time_horizon": "6 to 12 months.",
+  "additional_context": "The case does not specify whether the agency bills by hour, retainer, project, or outcome. Any claim about disruption to revenue logic must therefore be conditional."
+}
