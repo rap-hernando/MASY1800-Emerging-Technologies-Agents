@@ -1,0 +1,14 @@
+{
+  "emerging_technology": "LLM-based autonomous AI agents: systems in which a large language model plans, calls external tools or APIs, observes results, and iterates toward a goal with limited human intervention.",
+  "intended_application": "Automate end-to-end freight-audit work for a specialist freight-audit outsourcing provider, including routine invoice matching, discrepancy handling, and preparation of customer savings reports.",
+  "organization": "Mid-sized freight-audit and payment services provider whose customers pay primarily for outsourced invoice-review and audit work.",
+  "industry_sector": "Freight audit and payment / business process outsourcing.",
+  "business_need": "Reduce labor-intensive invoice review cost while maintaining service quality and protecting the firm's customer value proposition.",
+  "users_stakeholders": "Freight auditors, operations managers, account managers, customers, finance leadership, auditors, and IT.",
+  "adoption_posture": "Pragmatic adopter under competitive cost pressure.",
+  "capabilities_constraints": "Established invoice-processing platform and customer integrations; significant operating knowledge resides in audit staff; revenue depends materially on performing outsourced audit work.",
+  "risk_consequence_context": "Errors can create customer financial loss and reputational damage, but the central analytical issue is whether automation changes the firm's core service economics and value proposition.",
+  "management_question": "Is agentic freight-audit automation merely a process efficiency improvement, or could it materially disrupt the provider's own labor-based service model and source of competitive advantage?",
+  "time_horizon": "12 to 24 months.",
+  "additional_context": "This is a deliberately borderline case. The analysis should preserve both a High-disruption interpretation and a credible Moderate alternative if the firm can reprice around outcomes, exception expertise, or platform value."
+}
