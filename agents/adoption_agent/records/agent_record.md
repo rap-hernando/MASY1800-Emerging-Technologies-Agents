@@ -26,7 +26,7 @@ lab6-subagent5-adoption-agent
 
 **Commit**
 
-Source commit recorded in RELEASE_RECORD.json and the formatted Agent Record.
+0d843289fe7d11580c9fcd37a5e3a05aed678d0c (validated agent source)
 
 **Frozen scaffold version**
 

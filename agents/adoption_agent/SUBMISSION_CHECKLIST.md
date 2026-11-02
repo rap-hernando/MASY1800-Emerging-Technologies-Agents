@@ -8,6 +8,6 @@ Still required from the student before final submission:
 - Review and endorse or revise the proposed independent judgment in the Agent Record.
 - Check the actual Brightspace rubric, due date, naming conventions and submission requirements. The supplied common rubric is not a substitute for the live assignment rubric.
 - If the instructor requires proof of a separate fresh ChatGPT run, follow TESTING.md and retain its returned JSON and validation output. Packaged examples come from the Codex development session.
-- Inspect the Agent Record in Word before upload if the automated visual-preview limitation remains unresolved; see deliverables/QA_STATUS.md.
+- Review the completed Agent Record and confirm that its judgment reflects your own position before upload.
 
 Common supplied rubric for review: Professional Task and Deliverable 30%; Evidence and Analysis 30%; Contextual Professional Judgment 30%; Testing, Verification and Team Handoff 10%.
