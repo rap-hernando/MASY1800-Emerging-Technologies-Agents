@@ -12,7 +12,7 @@
 
 **Branch**: lab7-organizational-adoption-agent
 
-**Commit**: See VERSION_RECORD.json for the validated source commit.
+**Commit**: ab2b883bd521eb7c57740ebc5e4fb343c63d6669 (validated agent source; see VERSION_RECORD.json).
 
 **Frozen scaffold version**: MASY1800_ET_Agent_Scaffold_v1_0; all seven frozen-file hashes pass.
 
