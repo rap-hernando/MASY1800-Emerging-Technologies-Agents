@@ -1,0 +1,11 @@
+Executed 2026-11-17; Python standard-library artifact verification.
+FROZEN CORE INTACT
+PASS: embedded evidence capsule matches source ledger
+PASS: contrast_1: input/full output schema, VALIDATION PASSED, packet construction; packet SHA256=0b2f26a4f8f57be537a1a2a5f0957fb601a791d3afe89759081286a992cd61f8
+PASS: contrast_2: input/full output schema, VALIDATION PASSED, packet construction; packet SHA256=bd7e673499062db1e73f290303c5c64013b9df9b288ec1beb687912e301d7328
+PASS: instructor_A_reconstructed: input/full output schema, VALIDATION PASSED, packet construction; packet SHA256=ba536df7abb6128b6c2753fefb99e17ed9c077b0bfd7477a7bcbbc807fe70cad
+PASS: instructor_B_reconstructed: input/full output schema, VALIDATION PASSED, packet construction; packet SHA256=34edd4aa03289412b39b0d4320c799fb2948ba64a26688640a7cc34355188d9f
+PASS: primary: input/full output schema, VALIDATION PASSED, packet construction; packet SHA256=5ea903e3189a3cda12697ac906e2eea1357388e9f084d9e54022502bb57f550c
+PASS: full schema rejects extra top-level field
+PASS: full schema rejects missing evidence denominator note field
+COMPLETE: 5 cases, 5 saved examples and 5 prompt packets validated. No LLM was invoked; semantic/factual quality requires human review and fresh model runs.

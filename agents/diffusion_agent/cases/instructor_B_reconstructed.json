@@ -1,0 +1,14 @@
+{
+  "emerging_technology": "Generative AI using large language models.",
+  "time_horizon": "Three years.",
+  "management_question": "How far have this technology and application spread, what accelerates or inhibits diffusion, and what timing and peer-position implication follows?",
+  "intended_application": "LLM-based assistant for routine internal memoranda, maintenance-report summaries and first drafts of public event announcements.",
+  "organization": "Hypothetical 300-person municipal parks department.",
+  "industry_sector": "Municipal government / parks.",
+  "business_need": "Support public-service administration; funded by municipal appropriations, with no billable professional hours.",
+  "users_stakeholders": "Parks employees, reviewers, municipal leadership and residents.",
+  "adoption_posture": "Conservative; documented review procedures, privacy protections and human accountability required.",
+  "capabilities_constraints": "Specific systems and skills not supplied; do not invent them. Documented review and privacy protection required.",
+  "risk_consequence_context": "Privacy, public communications accuracy and accountability; internal drafts differ from public release.",
+  "additional_context": "Reconstructed from the November 16 instructor feedback summary, not the verbatim approved case file. Use the same diffusion evidence as Case A. In this separate run, the embedded capsule is shared but no Case A output is supplied; do not invent missing shared or municipal evidence."
+}

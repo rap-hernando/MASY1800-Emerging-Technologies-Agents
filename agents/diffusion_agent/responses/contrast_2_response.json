@@ -1,45 +1,68 @@
 {
   "agent": {
     "name": "Emerging Technology Diffusion Agent",
-    "specialty": "Rogers diffusion analysis and context-sensitive timing",
-    "version": "1.0-2026-10-26"
+    "specialty": "Rogers diffusion analysis, adopter-stage assessment, diffusion characteristics, accelerators/inhibitors, and context-sensitive timing implications",
+    "version": "1.1-2026-11-17"
   },
-  "analytical_question": "How far has LLM-based autonomous agentic AI and this application diffused, what is accelerating or inhibiting diffusion, and what timing implication follows for this organization?",
-  "general_et_finding": "Agentic AI is in an accelerating but still early diffusion phase. The best-supported characterization is late early-adopter / early-majority transition among large enterprises, while the overall market remains earlier because scaled agent use is still limited across most functions. Rogers factors: relative advantage = high and increasingly observable; compatibility = mixed because enterprise workflows and governance vary; complexity = high; trialability = high for bounded pilots; observability = medium and improving as production cases become public. Major accelerators are foundation-model capability, enterprise platforms, tool/API protocols, vendor ecosystems, and visible peer deployments. Major inhibitors are reliability, data quality, integration, security, governance, accountability, and skills.",
-  "application_finding": "Customer-service agents are an active enterprise use area, but autonomous account-changing actions are less diffused than assistive or conversational service because identity, authorization, compliance, and audit requirements increase complexity and reduce safe trialability.",
-  "organization_specific_finding": "For a conservative regional bank, the same general diffusion evidence implies slower movement: supervised pilots or recommendation/triage are timely, but autonomous execution of account changes should remain constrained until regulated peer evidence and control maturity are stronger.",
+  "analytical_question": "How far have the stated technology and application actions diffused, which factors matter here, and what bounded timing implication follows?",
+  "general_et_finding": "The supplied cross-industry evidence distinguishes broad AI use from agentic deployment and reports uneven scaling. It does not establish a population-wide Rogers category for tool-using agents. Treat the technology as showing experimentation and selective scaling, with the exact adopter category unresolved. Organizational posture does not change this finding; Rogers reference proportions are theoretical, not measured diffusion shares.",
+  "application_finding": "Separate interpreting a request and drafting a staff response from writing account data or initiating a consequential dispute action. Account changes require identity/authorization checks and can expose customers even if a record can later be corrected. Exact peer diffusion for each action is not established. Relative advantage: possible turnaround improvement versus deterministic service workflows and staff review is unmeasured (inference, conditional accelerator). Compatibility: legacy core systems, privacy and model-risk procedures constrain fit more than editorial review in marketing (case facts, inhibitor). Complexity: identity, fraud, permissions, core integration and accountable audit trails add distinct dependencies (case facts and inference, substantial inhibitor). Trialability: read-only shadow assistance is feasible in principle; live account-write experiments are much less reversible (inference, action-dependent). Observability: audit logs could support error measurement, but rare harmful events and unavailable peer evidence limit conclusions (inference, mixed).",
+  "organization_specific_finding": "Authorization/control complexity is the strongest inhibitor. Service operations, compliance and security leaders could enable supervised learning and credible peer comparison (inference). Conservative posture changes acceptable timing, not general diffusion. Verified identity services and core-system interfaces are necessary complements; their existence does not establish agent adoption.",
   "evidence": [
     {
-      "claim": "Enterprise agentic-AI scaling is increasing but remains uneven by organization size: 40% of respondents at organizations above $1B revenue reported scaling AI agents, compared with 22% at smaller organizations.",
-      "source_or_reference": "McKinsey, The state of AI in 2026: On the road to ROI",
-      "date_or_recency": "2026-08-25",
-      "evidence_type": "Global enterprise survey",
-      "notes": "Strong directional evidence of acceleration and size effects; not specific to logistics or freight audit."
+      "claim": "Reported agent scaling differs by revenue size (40% versus 22%).",
+      "source_or_reference": "M26 McKinsey The state of AI in 2026 https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai",
+      "date_or_recency": "2026-08-25; fieldwork: 2026-05-04 to 2026-06-08",
+      "evidence_type": "Consulting survey",
+      "notes": "Population: 1,719 survey respondents across roles, industries and organization sizes in 97 countries; GDP-weighted Denominator: 40%: respondents in organizations above USD 1 billion revenue; 22%: respondents in smaller organizations. Subgroup counts not verified; total n=1,719 is NOT either subgroup denominator. Scope: Agentic AI; cross-industry, not a freight-payment or municipal sample Limits: Self-report, selection and weighting limitations; revenue size is not employee count. Does not identify Rogers category or safety."
     },
     {
-      "claim": "AI-agent diffusion remains early across most business functions; scaled use was in the single digits for nearly all functions even as overall organizational AI adoption reached 88%.",
-      "source_or_reference": "Stanford HAI, 2026 AI Index Report, Economy chapter",
-      "date_or_recency": "2026 report; organizational data primarily 2025",
-      "evidence_type": "Cross-source empirical synthesis",
-      "notes": "Important control against substituting broad AI adoption for agentic-AI diffusion."
+      "claim": "88% reported regular AI use in at least one business function; this is not agentic or application-specific penetration.",
+      "source_or_reference": "M25 McKinsey The state of AI in 2025 https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai-2025",
+      "date_or_recency": "2025-11-05; fieldwork: 2025-06-25 to 2025-07-29",
+      "evidence_type": "Consulting survey",
+      "notes": "Population: 1,993 respondents in 105 countries across organizational roles, sectors and sizes; GDP-weighted Denominator: Overall AI-use figure: survey respondents, total n=1,993; not all firms in an economy. Function-level agent exhibit: n=1,933, asked of function users then rebased to total sample. Scope: Overall organizational AI; agent questions are separate measures Limits: Self-report; not a census. Do not combine function-level, any-function, scaling and fully-scaled measures."
     },
     {
-      "claim": "DHL reports logistics agentic-AI implementations moving beyond pilots into production; examples include customs-duty customer contact and shipment booking/data enrichment, with human-in-loop validation in the latter.",
-      "source_or_reference": "DHL Logistics Trend Radar / DHL Global Forwarding, Freight Capital Market Briefing",
-      "date_or_recency": "2026-03-31 and 2026-09-24",
-      "evidence_type": "Industry operator production examples",
-      "notes": "Strong logistics-specific signal, but not evidence that autonomous freight-invoice payment approval is mainstream."
+      "claim": "Figure 4.3.1 attributes the broad adoption series to McKinsey 2025.",
+      "source_or_reference": "S26 Stanford HAI 2026 AI Index, Economy chapter https://hai.stanford.edu/assets/files/ai_index_report_2026_chapter_4_economy.pdf",
+      "date_or_recency": "2026 (exact release day not verified from the inspected primary page); fieldwork: Underlying corporate adoption observation year 2025; see M25",
+      "evidence_type": "Academic evidence compilation",
+      "notes": "Population: Underlying McKinsey respondents; not a second independent Stanford survey Denominator: Figure 4.3.1 uses M25 respondent basis (n=1,993 overall); see M25 for measure-specific denominator. Scope: Secondary synthesis of organizational adoption Limits: Do not count S26 and M25 as independent corroborating surveys. Preserve underlying observation year."
+    },
+    {
+      "claim": "Slide 13 describes agentic booking/data enrichment with human validation.",
+      "source_or_reference": "D26 DHL Global Forwarding Freight Capital Market Briefing https://group.dhl.com/content/dam/deutschepostdhl/de/media-center/investors/documents/capital-markets-days/DHL-Group-DGFF-Capital-Market-Briefing-London-March-2026.pdf",
+      "date_or_recency": "2026-03-31; fieldwork: Operational observation period not disclosed on cited slide",
+      "evidence_type": "Operator investor presentation",
+      "notes": "Population: DHL booking and enrichment workflow; one operator example Denominator: No surveyed-firm denominator. 2.5 million annual requests is workflow context, not number of adopting companies or confirmed autonomous transactions. Scope: Adjacent logistics workflow, not autonomous invoice payment Limits: Self-reported example, not an independent peer diffusion estimate; coverage, comparison period and error-rate denominator unavailable."
+    },
+    {
+      "claim": "Context and constraints supplied in this case; mechanisms described above are analytical inferences, not measured outcomes.",
+      "source_or_reference": "cases/contrast_2.json",
+      "date_or_recency": "Case supplied/reconstructed for 2026-11-17 review",
+      "evidence_type": "Hypothetical case facts and explicitly labeled inference",
+      "notes": "No survey denominator or observed deployment result. These are not empirical adoption measurements."
     }
   ],
-  "contrary_evidence_or_limitations": ["Enterprise agent surveys are not banking-specific and do not reveal autonomy level.","Public bank examples may emphasize assistants rather than agents authorized to change accounts.","Regulatory and geographic differences limit comparability."],
-  "confidence_and_uncertainty": "Moderate confidence that timing should be conservative; low-to-moderate confidence on precise application diffusion stage due limited comparable public deployment data.",
-  "value_opportunity_implication": "A supervised pilot can build learning in classification, information gathering, and workflow routing while preserving human authority for consequential changes.",
-  "risk_governance_implication": "High consequences amplify compatibility and complexity inhibitors: identity verification, fraud, privacy, model risk, auditability, regulatory obligations, and legacy core integration.",
-  "recommendation_management_implication": "Timing implication: proof of concept / supervised pilot for bounded service workflows; defer broad autonomous account-change authority. Diffusion stage does not justify overriding the bank’s consequence-based controls.",
-  "change_monitoring_triggers": ["Regulators or industry bodies publish clear patterns for governed autonomous account servicing.","Comparable regional banks report scaled production use with independently measured control performance.","Internal pilots establish identity, authorization, audit, and rollback controls under realistic adversarial conditions."],
+  "contrary_evidence_or_limitations": [
+    "Hype-sensitive claim: widespread overall AI use does not establish agentic or exact-application mainstream status.",
+    "The packet contains no comparable-peer application penetration denominator; absent evidence does not establish that actual diffusion is low.",
+    "Source sample units, observation dates and dependence must be preserved; published operational scaling is not a Rogers category.",
+    "These responses were authored with Codex assistance in the revision chat, with access to feedback and all cases. They are reviewed examples, not blind independent model trials or observed deployments."
+  ],
+  "confidence_and_uncertainty": "Moderate confidence in the bounded interpretation of supplied sources; low confidence in exact application-stage assignment. Context mechanisms are inference and require local testing. No precise adopter percentage or category is justified.",
+  "value_opportunity_implication": "Compare reviewer-adjusted turnaround and error rates with current service automation before assuming benefit.",
+  "risk_governance_implication": "Account writes and dispute initiation require a distinct assessment from drafting; no regulatory compliance conclusion is established by this packet.",
+  "recommendation_management_implication": "Conditional timing implication: consider supervised read-only learning once prerequisites are met; defer any inference that diffusion supports autonomous account changes. Monitor evidence during the 12–24 month horizon. Final deployment and authority decisions remain outside this specialist.",
+  "change_monitoring_triggers": [
+    "Review evidence quarterly and upon a relevant dated peer deployment or material change in controls/integration.",
+    "A new case triggers reassessment, not automatic mainstream classification. Require an applicable population denominator and production definition before changing a diffusion-stage claim.",
+    "Internal measured quality and reviewer burden inform timing, but cannot establish market penetration."
+  ],
   "abstention_or_more_information_needed": [
-    "Do not assign a precise adopter-category percentage without comparable agent-specific deployment data.",
-    "Do not infer application-level diffusion from overall AI or generative-AI adoption.",
-    "Seek peer evidence matched by industry, organization size, autonomy level, and consequence level before concluding an application is mainstream."
+    "Request dated comparable-bank deployments with adopting/eligible-firm denominator, action permissions, observation period, identity-control performance, incident rates and denominator, human intervention and audit outcomes.",
+    "Specify sampling frame, geography, organization size and exact action authority; separate pilots from sustained production and provide failure-rate denominators.",
+    "Obtain internal baseline and readiness evidence before a management deployment decision."
   ]
 }
